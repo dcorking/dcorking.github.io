@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>David Corking: David Corking</title>
+  <description>David Corking: David Corking</description>
+  <link>https://www.dcorking.com/index.html</link>
+  <lastBuildDate>Sun, 26 Jan 2020 09:12:10 UT</lastBuildDate>
+  <pubDate>Sun, 26 Jan 2020 09:12:10 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Static sites with Racket</title>
+   <link>https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-www-dcorking-com:-2020-01-static-sites-with-racket-html</guid>
+   <pubDate>Sun, 26 Jan 2020 09:12:10 UT</pubDate>
+   <author>David Corking</author>
+   <description>
+&lt;p&gt;I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.&lt;/p&gt;
+
+&lt;p&gt;Interesting options include&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;darwin (a fork of the dormant frog project)&lt;/li&gt;
+ &lt;li&gt;pollen (that was written to make web books such as Practical Typography)&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://racket-stories.com/about"&gt;racket stories&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;a href="https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item>
+  <item>
+   <title>A 2012 blog post</title>
+   <link>https://www.dcorking.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-www-dcorking-com:-2012-01-a-2012-blog-post-html</guid>
+   <pubDate>Sun, 01 Jan 2012 00:00:00 UT</pubDate>
+   <author>David Corking</author>
+   <description>
+&lt;p&gt;Here is an example blog post.&lt;/p&gt;
+
+&lt;p&gt;Everything after this paragraph &amp;ldquo;after the break&amp;rdquo;. On index pages and Atom feeds, it will become &amp;ldquo;Continue reading&amp;hellip;&amp;rdquo;, if you configure them to include only the summary &amp;ldquo;blurb&amp;rdquo; before the break.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;some code&lt;/code&gt;&lt;/pre&gt;&lt;a href="https://www.dcorking.com/2012/01/a-2012-blog-post.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>

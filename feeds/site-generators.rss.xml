@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<rss version="2.0">
+ <channel>
+  <title>David Corking: Posts tagged 'site-generators'</title>
+  <description>David Corking: Posts tagged 'site-generators'</description>
+  <link>https://www.dcorking.com/tags/site-generators.html</link>
+  <lastBuildDate>Sun, 26 Jan 2020 09:12:10 UT</lastBuildDate>
+  <pubDate>Sun, 26 Jan 2020 09:12:10 UT</pubDate>
+  <ttl>1800</ttl>
+  <item>
+   <title>Static sites with Racket</title>
+   <link>https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=site-generators&amp;utm_medium=RSS</link>
+   <guid isPermaLink="false">urn:https-www-dcorking-com:-2020-01-static-sites-with-racket-html</guid>
+   <pubDate>Sun, 26 Jan 2020 09:12:10 UT</pubDate>
+   <author>David Corking</author>
+   <description>
+&lt;p&gt;I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.&lt;/p&gt;
+
+&lt;p&gt;Interesting options include&lt;/p&gt;
+
+&lt;ul&gt;
+ &lt;li&gt;darwin (a fork of the dormant frog project)&lt;/li&gt;
+ &lt;li&gt;pollen (that was written to make web books such as Practical Typography)&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://racket-stories.com/about"&gt;racket stories&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;a href="https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=site-generators&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
