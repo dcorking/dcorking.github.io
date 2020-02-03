@@ -9,8 +9,8 @@ programmatically generated custom content.
 
 Interesting options include
 
-- darwin (a fork of the dormant frog project)
-- pollen (that was written to make web books such as Practical Typography)
+- [racket darwin](https://github.com/pmatos/darwin) (a fork of the dormant frog project; not related to 'darwin', Apple's open source Mach kernel for operating systems)
+- [pollen](https://docs.racket-lang.org/pollen/) (that was written to make web books such as Practical Typography)
 - [racket stories](https://racket-stories.com/about)
 
 <!-- more -->

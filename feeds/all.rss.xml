@@ -19,6 +19,6 @@
 &lt;p&gt;Interesting options include&lt;/p&gt;
 
 &lt;ul&gt;
- &lt;li&gt;darwin (a fork of the dormant frog project)&lt;/li&gt;
- &lt;li&gt;pollen (that was written to make web books such as Practical Typography)&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://github.com/pmatos/darwin"&gt;racket darwin&lt;/a&gt; (a fork of the dormant frog project; not related to &amp;lsquo;darwin&amp;rsquo;, Apple&amp;rsquo;s open source Mach kernel for operating systems)&lt;/li&gt;
+ &lt;li&gt;&lt;a href="https://docs.racket-lang.org/pollen/"&gt;pollen&lt;/a&gt; (that was written to make web books such as Practical Typography)&lt;/li&gt;
  &lt;li&gt;&lt;a href="https://racket-stories.com/about"&gt;racket stories&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;a href="https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;amp;utm_medium=RSS"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</description></item></channel></rss>
