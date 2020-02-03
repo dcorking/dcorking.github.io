@@ -15,6 +15,6 @@ Interesting options include
 
 <!-- more -->
 
-Reddit thread from October 2019 at https://www.reddit.com/r/Racket/comments/dbwh15/do_you_use_racket_for_web_publishing_if_so_what/
+Reddit thread from October 2019 is [Do you use racket for web publishing if so what?](https://www.reddit.com/r/Racket/comments/dbwh15/do_you_use_racket_for_web_publishing_if_so_what/)
 
 Polyglot was another tool mentioned, but the links I followed were dead.
