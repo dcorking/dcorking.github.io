@@ -1,0 +1,13 @@
+#lang pollen
+◊(define metal "Aluminum")
+Pollen + Markdown
+-----------------
+ 
++ You **wanted** ◊metal — you _got_ it.
+ 
++ [search for ◊metal](https://duckduckgo.com/?q=◊metal)
+
+<ol>
+<li>one</li>
+<li>two</li>
+</ol>
