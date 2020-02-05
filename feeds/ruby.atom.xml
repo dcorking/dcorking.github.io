@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+ <title type="text">David Corking: Posts tagged 'ruby'</title>
+ <link rel="self" href="https://www.dcorking.com/feeds/ruby.atom.xml" />
+ <link href="https://www.dcorking.com/tags/ruby.html" />
+ <id>urn:https-www-dcorking-com:-tags-ruby-html</id>
+ <updated>2020-02-05T23:14:43Z</updated>
+ <entry>
+  <title type="text">What is the name of a class, in a class method?</title>
+  <link rel="alternate" href="https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=ruby&amp;utm_medium=Atom" />
+  <id>urn:https-www-dcorking-com:-2020-02-what-is-the-name-of-a-class-in-a-class-method-html</id>
+  <published>2020-02-05T23:14:43Z</published>
+  <updated>2020-02-05T23:14:43Z</updated>
+  <author>
+   <name>David Corking</name></author>
+  <content type="html">
+&lt;p&gt;What is the name of a class, in a class method?&lt;/p&gt;
+
+&lt;div class="brush: ruby"&gt;
+ &lt;table class="sourcetable"&gt;
+  &lt;tbody&gt;
+   &lt;tr&gt;
+    &lt;td class="linenos"&gt;
+     &lt;div class="linenodiv"&gt;
+      &lt;pre&gt;1
+2
+3
+4
+5
+6
+7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
+    &lt;td class="code"&gt;
+     &lt;div class="source"&gt;
+      &lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# bad&lt;/span&gt;
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Foo&lt;/span&gt;
+  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nc"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;hello&lt;/span&gt;
+    &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;class_name&lt;/span&gt; &lt;span class="c1"&gt;# is a monkey patch from yard so probably won&amp;#39;t work in production&lt;/span&gt;
+    &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;class&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="c1"&gt;# is &amp;#39;Module&amp;#39;  :(&lt;/span&gt;
+  &lt;span class="k"&gt;end&lt;/span&gt;
+&lt;span class="k"&gt;end&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/div&gt;&lt;a href="https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=ruby&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>

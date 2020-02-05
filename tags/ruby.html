@@ -3,15 +3,15 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Static sites with Racket</title>
-    <meta name="description" content="I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.  Interesti...">
+    <title>Posts tagged 'ruby'</title>
+    <meta name="description" content="Posts tagged 'ruby'">
     <meta name="author"      content="David Corking">
-    <meta name="keywords"    content="racket, lisp, site-generators, html">
+    <meta name="keywords"    content="ruby">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="https://www.dcorking.com/2020/01/static-sites-with-racket.html">
+    <link rel="canonical" href="https://www.dcorking.com/tags/ruby.html">
 
-    <link rel="prev" href="/2020/02/what-is-the-name-of-a-class-in-a-class-method.html">
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -19,9 +19,9 @@
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <!-- Feeds -->
     <link rel="alternate" type="application/atom+xml"
-          href="/feeds/all.atom.xml" title="Atom Feed">
+          href="/feeds/ruby.atom.xml" title="Atom Feed">
     <link rel="alternate" type="application/rss+xml"
-          href="/feeds/all.rss.xml" title="RSS Feed">
+          href="/feeds/ruby.rss.xml" title="RSS Feed">
     <!-- JS -->
     <script type="text/javascript">
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -66,11 +66,11 @@
             </li> 
 
             <li class="nav-item">
-              <a class="nav-link" href="/feeds/all.atom.xml">Atom</a>
+              <a class="nav-link" href="/feeds/ruby.atom.xml">Atom</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="/feeds/all.rss.xml">RSS</a>
+              <a class="nav-link" href="/feeds/ruby.rss.xml">RSS</a>
             </li>
           </ul>
       </div>
@@ -87,43 +87,45 @@
 
 
 
-
+          <h1>Posts tagged <em>ruby</em></h1>
 
           <article>
   <header>
-    <h1>Static sites with Racket</h1>
+    <h2><a href='/2020/02/what-is-the-name-of-a-class-in-a-class-method.html'>What is the name of a class, in a class method?</a></h2>
     <p class='date-and-tags'>
-<time datetime="2020-01-26" pubdate="true">2020-01-26</time> :: <span class="tags"><a href="/tags/racket.html">racket</a>, <a href="/tags/lisp.html">lisp</a>, <a href="/tags/site-generators.html">site-generators</a>, <a href="/tags/html.html">html</a></span></p>
+<time datetime="2020-02-05" pubdate="true">2020-02-05</time> :: <span class="tags"><a href="/tags/ruby.html">ruby</a></span></p>
     <p class='authors'>By: <span class="authors">David Corking</span></p>
   </header>
 
-<p>I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.</p>
+<p>What is the name of a class, in a class method?</p>
 
-<p>Interesting options include</p>
-
-<ul>
- <li><a href="https://github.com/pmatos/darwin">racket darwin</a> (a fork of the dormant frog project; not related to &lsquo;darwin&rsquo;, Apple&rsquo;s open source Mach kernel for operating systems)</li>
- <li><a href="https://docs.racket-lang.org/pollen/">pollen</a> (that was written to make web books such as Practical Typography)</li>
- <li><a href="https://racket-stories.com/about">racket stories</a></li></ul>
-<!-- more-->
-
-<p>Reddit thread from October 2019 is <a href="https://www.reddit.com/r/Racket/comments/dbwh15/do_you_use_racket_for_web_publishing_if_so_what/">Do you use racket for web publishing if so what?</a></p>
-
-<p>Polyglot was another tool mentioned, but the links I followed were dead.</p>
+<div class="brush: ruby">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span></span><span class="c1"># bad</span>
+<span class="k">class</span> <span class="nc">Foo</span>
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">hello</span>
+    <span class="nb">puts</span> <span class="n">class_name</span> <span class="c1"># is a monkey patch from yard so probably won&#39;t work in production</span>
+    <span class="nb">puts</span> <span class="n">class</span><span class="o">.</span><span class="n">name</span> <span class="c1"># is &#39;Module&#39;  :(</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
   <footer>
-    <div class="row justify-content-center">
-      <nav aria-label="Page Navigation">
-        <ul class="pagination">
-
-          <li class="page-item">
-            <a class="page-link" href="/2020/02/what-is-the-name-of-a-class-in-a-class-method.html"
-               aria-label="Next">
-              <span aria-hidden="true">What is the name of a class, in a class method? &rarr;</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <a href='/2020/02/what-is-the-name-of-a-class-in-a-class-method.html'>&hellip; more &hellip;</a>
   </footer>
 </article>
         </div>

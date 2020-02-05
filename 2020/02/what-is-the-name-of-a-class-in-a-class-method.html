@@ -3,15 +3,15 @@
   <head>
 
     <meta charset="utf-8">
-    <title>Static sites with Racket</title>
-    <meta name="description" content="I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.  Interesti...">
+    <title>What is the name of a class, in a class method?</title>
+    <meta name="description" content="What is the name of a class, in a class method?                     1 2 3 4 5 6 7              # bad class Foo   def self.hello     puts class_name # is a monkey patch from yard so probably won't work in production     puts class.name # is 'Module'  :(   ...">
     <meta name="author"      content="David Corking">
-    <meta name="keywords"    content="racket, lisp, site-generators, html">
+    <meta name="keywords"    content="ruby">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="https://www.dcorking.com/2020/01/static-sites-with-racket.html">
+    <link rel="canonical" href="https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html">
+    <link rel="next" href="/2020/01/static-sites-with-racket.html">
 
-    <link rel="prev" href="/2020/02/what-is-the-name-of-a-class-in-a-class-method.html">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="/css/pygments.css">
@@ -91,36 +91,87 @@
 
           <article>
   <header>
-    <h1>Static sites with Racket</h1>
+    <h1>What is the name of a class, in a class method?</h1>
     <p class='date-and-tags'>
-<time datetime="2020-01-26" pubdate="true">2020-01-26</time> :: <span class="tags"><a href="/tags/racket.html">racket</a>, <a href="/tags/lisp.html">lisp</a>, <a href="/tags/site-generators.html">site-generators</a>, <a href="/tags/html.html">html</a></span></p>
+<time datetime="2020-02-05" pubdate="true">2020-02-05</time> :: <span class="tags"><a href="/tags/ruby.html">ruby</a></span></p>
     <p class='authors'>By: <span class="authors">David Corking</span></p>
   </header>
 
-<p>I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.</p>
+<p>What is the name of a class, in a class method?</p>
 
-<p>Interesting options include</p>
-
-<ul>
- <li><a href="https://github.com/pmatos/darwin">racket darwin</a> (a fork of the dormant frog project; not related to &lsquo;darwin&rsquo;, Apple&rsquo;s open source Mach kernel for operating systems)</li>
- <li><a href="https://docs.racket-lang.org/pollen/">pollen</a> (that was written to make web books such as Practical Typography)</li>
- <li><a href="https://racket-stories.com/about">racket stories</a></li></ul>
+<div class="brush: ruby">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span></span><span class="c1"># bad</span>
+<span class="k">class</span> <span class="nc">Foo</span>
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">hello</span>
+    <span class="nb">puts</span> <span class="n">class_name</span> <span class="c1"># is a monkey patch from yard so probably won&#39;t work in production</span>
+    <span class="nb">puts</span> <span class="n">class</span><span class="o">.</span><span class="n">name</span> <span class="c1"># is &#39;Module&#39;  :(</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
 <!-- more-->
 
-<p>Reddit thread from October 2019 is <a href="https://www.reddit.com/r/Racket/comments/dbwh15/do_you_use_racket_for_web_publishing_if_so_what/">Do you use racket for web publishing if so what?</a></p>
+<div class="brush: ruby">
+ <table class="sourcetable">
+  <tbody>
+   <tr>
+    <td class="linenos">
+     <div class="linenodiv">
+      <pre>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td>
+    <td class="code">
+     <div class="source">
+      <pre><span></span><span class="c1"># good</span>
+<span class="k">class</span> <span class="nc">Foo</span>
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">hello</span>
+    <span class="nb">puts</span> <span class="nb">name</span> <span class="c1"># built in to Ruby</span>
+  <span class="k">end</span>
+<span class="k">end</span>
 
-<p>Polyglot was another tool mentioned, but the links I followed were dead.</p>
+<span class="o">[</span><span class="mi">4</span><span class="o">]</span> <span class="n">pry</span><span class="p">(</span><span class="n">main</span><span class="p">)</span><span class="o">&gt;</span> <span class="no">Foo</span><span class="o">.</span><span class="n">hello</span>
+<span class="no">Foo</span>
+</pre></div>
+</td></tr></tbody></table>
+</div>
+
+<p>See <a href="https://ruby-doc.org/core-2.7.0/Module.html#method-i-name">Module#name</a> in the Ruby 2.7 docs</p>
+
+<p>Thanks to <a href="https://stackoverflow.com/questions/826210/how-do-i-get-the-name-of-a-ruby-class/49804985#49804985">a Stack Overflow answer</a></p>
+
+<p>In an instance method, use <code>class.name</code></p>
   <footer>
     <div class="row justify-content-center">
       <nav aria-label="Page Navigation">
         <ul class="pagination">
-
           <li class="page-item">
-            <a class="page-link" href="/2020/02/what-is-the-name-of-a-class-in-a-class-method.html"
-               aria-label="Next">
-              <span aria-hidden="true">What is the name of a class, in a class method? &rarr;</span>
+            <a class="page-link" href="/2020/01/static-sites-with-racket.html"
+               aria-label="Previous">
+              <span aria-hidden="true">&larr; Static sites with Racket</span>
             </a>
           </li>
+
         </ul>
       </nav>
     </div>
