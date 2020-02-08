@@ -1,3 +1,2 @@
 https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html
 https://www.dcorking.com/2020/01/static-sites-with-racket.html
-https://www.dcorking.com/About.html
