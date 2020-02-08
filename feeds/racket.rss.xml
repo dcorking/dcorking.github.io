@@ -12,7 +12,7 @@
    <link>https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=racket&amp;utm_medium=RSS</link>
    <guid isPermaLink="false">urn:https-www-dcorking-com:-2020-01-static-sites-with-racket-html</guid>
    <pubDate>Sun, 26 Jan 2020 09:12:10 UT</pubDate>
-   <author>David Corking</author>
+   <author>David</author>
    <description>
 &lt;p&gt;I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.&lt;/p&gt;
 

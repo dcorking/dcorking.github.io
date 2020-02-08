@@ -12,7 +12,7 @@
   <published>2020-01-26T09:12:10Z</published>
   <updated>2020-01-26T09:12:10Z</updated>
   <author>
-   <name>David Corking</name></author>
+   <name>David</name></author>
   <content type="html">
 &lt;p&gt;I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.&lt;/p&gt;
 

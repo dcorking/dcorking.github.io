@@ -6,7 +6,7 @@
   (-> any)
   (current-scheme/host "https://www.dcorking.com")
   (current-title "David Corking")
-  (current-author "David Corking"))
+  (current-author "David"))
 
 ;; Called once per post and non-post page, on the contents.
 (define/contract (enhance-body xs)
