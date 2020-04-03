@@ -1,5 +1,9 @@
 /* custom.css */
 
+body {
+    font-family: "Courier";
+}
+
 code {
     color: black;
 }
