@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">David Corking: David Corking</title>
- <link rel="self" href="https://www.dcorking.com/feeds/all.atom.xml" />
- <link href="https://www.dcorking.com/index.html" />
- <id>urn:https-www-dcorking-com:-index-html</id>
+ <link rel="self" href="https://dcorking.com/feeds/all.atom.xml" />
+ <link href="https://dcorking.com/index.html" />
+ <id>urn:https-dcorking-com:-index-html</id>
  <updated>2020-02-05T23:14:43Z</updated>
  <entry>
   <title type="text">What is the name of a class, in a class method?</title>
-  <link rel="alternate" href="https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-www-dcorking-com:-2020-02-what-is-the-name-of-a-class-in-a-class-method-html</id>
+  <link rel="alternate" href="https://dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-dcorking-com:-2020-02-what-is-the-name-of-a-class-in-a-class-method-html</id>
   <published>2020-02-05T23:14:43Z</published>
   <updated>2020-02-05T23:14:43Z</updated>
   <author>
@@ -40,11 +40,11 @@
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;&lt;a href="https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
+&lt;/div&gt;&lt;a href="https://dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
  <entry>
   <title type="text">Static sites with Racket</title>
-  <link rel="alternate" href="https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-www-dcorking-com:-2020-01-static-sites-with-racket-html</id>
+  <link rel="alternate" href="https://dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;utm_medium=Atom" />
+  <id>urn:https-dcorking-com:-2020-01-static-sites-with-racket-html</id>
   <published>2020-01-26T09:12:10Z</published>
   <updated>2020-01-26T09:12:10Z</updated>
   <author>
@@ -57,4 +57,4 @@
 &lt;ul&gt;
  &lt;li&gt;&lt;a href="https://github.com/pmatos/darwin"&gt;racket darwin&lt;/a&gt; (a fork of the dormant frog project; not related to &amp;lsquo;darwin&amp;rsquo;, Apple&amp;rsquo;s open source Mach kernel for operating systems)&lt;/li&gt;
  &lt;li&gt;&lt;a href="https://docs.racket-lang.org/pollen/"&gt;pollen&lt;/a&gt; (that was written to make web books such as Practical Typography)&lt;/li&gt;
- &lt;li&gt;&lt;a href="https://racket-stories.com/about"&gt;racket stories&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;a href="https://www.dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
+ &lt;li&gt;&lt;a href="https://racket-stories.com/about"&gt;racket stories&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;a href="https://dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>

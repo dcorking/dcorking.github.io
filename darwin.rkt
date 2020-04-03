@@ -4,7 +4,7 @@
 ;; in darwin/params.
 (define/contract (init)
   (-> any)
-  (current-scheme/host "https://www.dcorking.com")
+  (current-scheme/host "https://dcorking.com")
   (current-title "David Corking")
   (current-author "David"))
 

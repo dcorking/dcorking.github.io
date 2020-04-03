@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
  <title type="text">David Corking: Posts tagged 'ruby'</title>
- <link rel="self" href="https://www.dcorking.com/feeds/ruby.atom.xml" />
- <link href="https://www.dcorking.com/tags/ruby.html" />
- <id>urn:https-www-dcorking-com:-tags-ruby-html</id>
+ <link rel="self" href="https://dcorking.com/feeds/ruby.atom.xml" />
+ <link href="https://dcorking.com/tags/ruby.html" />
+ <id>urn:https-dcorking-com:-tags-ruby-html</id>
  <updated>2020-02-05T23:14:43Z</updated>
  <entry>
   <title type="text">What is the name of a class, in a class method?</title>
-  <link rel="alternate" href="https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=ruby&amp;utm_medium=Atom" />
-  <id>urn:https-www-dcorking-com:-2020-02-what-is-the-name-of-a-class-in-a-class-method-html</id>
+  <link rel="alternate" href="https://dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=ruby&amp;utm_medium=Atom" />
+  <id>urn:https-dcorking-com:-2020-02-what-is-the-name-of-a-class-in-a-class-method-html</id>
   <published>2020-02-05T23:14:43Z</published>
   <updated>2020-02-05T23:14:43Z</updated>
   <author>
@@ -40,4 +40,4 @@
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;&lt;a href="https://www.dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=ruby&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
+&lt;/div&gt;&lt;a href="https://dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=ruby&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
