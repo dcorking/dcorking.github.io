@@ -3,13 +3,13 @@
   <head>
 
     <meta charset="utf-8">
-    <title>David Corking</title>
-    <meta name="description" content="David Corking">
+    <title>How NOT to host static HTML pages</title>
+    <meta name="description" content="There are many plain and simple webservers that you can run on your computer (or smaller device) to serve a few web pages, images or JavaScript. These can be handy for development, but don't try to run one in a container on the live net, such as in a Hero...">
     <meta name="author"      content="David">
-    <meta name="keywords"    content="all, html, lisp, ruby, site-generators, racket">
+    <meta name="keywords"    content="DRAFT, ruby, heroku, containers, html">
     <meta name="viewport"    content="width=device-width, initial-scale=1.0">
     <link rel="icon"      href="/favicon.ico">
-    <link rel="canonical" href="https://dcorking.com/index.html">
+    <link rel="canonical" href="https://dcorking.com/2022/06/how-not-to-host-static-html-pages.html">
 
 
     <!-- CSS -->
@@ -76,69 +76,31 @@
         <!-- Main column -->
         <div id="content" class="col-md-12">
 
-          <p>
-            Notes and observations from coding: professional and spare-time
-          </p>
+
 
 
 
           <article>
   <header>
-    <h2><a href='/2020/02/what-is-the-name-of-a-class-in-a-class-method.html'>What is the name of a class, in a class method?</a></h2>
+    <h1>How NOT to host static HTML pages</h1>
     <p class='date-and-tags'>
-<time datetime="2020-02-05" pubdate="true">2020-02-05</time> :: <span class="tags"><a href="/tags/ruby.html">ruby</a></span></p>
+<time datetime="2022-06-26" pubdate="true">2022-06-26</time> :: <span class="tags"><a href="/tags/ruby.html">ruby</a>, <a href="/tags/heroku.html">heroku</a>, <a href="/tags/containers.html">containers</a>, <a href="/tags/html.html">html</a></span></p>
     <p class='authors'>By: <span class="authors">David</span></p>
   </header>
 
-<p>What is the name of a class, in a class method?</p>
+<p>There are many plain and simple webservers that you can run on your computer (or smaller device) to serve a few web pages, images or JavaScript. These can be handy for development, but don&rsquo;t try to run one in a container on the live net, such as in a Heroku dyno. Forget that advice for a moment and try it anyway!</p>
+<!-- more-->
 
-<div class="brush: ruby">
- <table class="sourcetable">
-  <tbody>
-   <tr>
-    <td class="linenos">
-     <div class="linenodiv">
-      <pre>1
-2
-3
-4
-5
-6
-7</pre></div></td>
-    <td class="code">
-     <div class="source">
-      <pre><span></span><span class="c1"># bad</span>
-<span class="k">class</span> <span class="nc">Foo</span>
-  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">hello</span>
-    <span class="nb">puts</span> <span class="n">class_name</span> <span class="c1"># is a monkey patch from yard so probably won&#39;t work in production</span>
-    <span class="nb">puts</span> <span class="n">class</span><span class="o">.</span><span class="n">name</span> <span class="c1"># is &#39;Module&#39;  :(</span>
-  <span class="k">end</span>
-<span class="k">end</span>
-</pre></div>
-</td></tr></tbody></table>
-</div>
+<p>Not everything website on your laptop needs a professional web server such as Apache or Nginx. Can we just throw up some pages on Heroku without an application server like puma or unicorn, nor a responder like sinatra or express, or even middleware like rack? You probably shouldn&rsquo;t, but you can.</p>
   <footer>
-    <a href='/2020/02/what-is-the-name-of-a-class-in-a-class-method.html'>&hellip; more &hellip;</a>
-  </footer>
-</article>
-<article>
-  <header>
-    <h2><a href='/2020/01/static-sites-with-racket.html'>Static sites with Racket</a></h2>
-    <p class='date-and-tags'>
-<time datetime="2020-01-26" pubdate="true">2020-01-26</time> :: <span class="tags"><a href="/tags/racket.html">racket</a>, <a href="/tags/lisp.html">lisp</a>, <a href="/tags/site-generators.html">site-generators</a>, <a href="/tags/html.html">html</a></span></p>
-    <p class='authors'>By: <span class="authors">David</span></p>
-  </header>
+    <div class="row justify-content-center">
+      <nav aria-label="Page Navigation">
+        <ul class="pagination">
 
-<p>I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.</p>
 
-<p>Interesting options include</p>
-
-<ul>
- <li><a href="https://github.com/pmatos/darwin">racket darwin</a> (a fork of the dormant frog project; not related to &lsquo;darwin&rsquo;, Apple&rsquo;s open source Mach kernel for operating systems)</li>
- <li><a href="https://docs.racket-lang.org/pollen/">pollen</a> (that was written to make web books such as Practical Typography)</li>
- <li><a href="https://racket-stories.com/about">racket stories</a></li></ul>
-  <footer>
-    <a href='/2020/01/static-sites-with-racket.html'>&hellip; more &hellip;</a>
+        </ul>
+      </nav>
+    </div>
   </footer>
 </article>
         </div>
