@@ -1,5 +1,29 @@
 /* custom.css */
 
+/* Bootstrap 4 variables for darker colours with better contrast on white background */
+:root {
+  --blue: #0056b3;
+  --primary: #0056b3;
+}
+
+/* Bootstrap 4 override precompiled SCSS variables for better contrast with white background and surrounding text */
+a {
+  color: #0056b3;
+  font-style: oblique;
+}
+a:hover {
+  color: #004085;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  /* override Bootstrap 4 navbar 0.5 opacity for accessible contrast */
+  color: #ffffff;
+}
+
+.page-link {
+  color: #0056b3;
+}
+
 code {
     color: black;
 }
@@ -23,4 +47,17 @@ article img {
  */
   max-width: 100%;
   height: auto;
+}
+
+/* pygments comments with higher contrast */
+.c,.cm,.c1,.cp,.cs {
+  color: #6A737D
+}
+/* pygments Name.Builtin with higher contrast */
+.nb {
+  color: #00779F
+}
+/* pygments headings, outputs etc. with higher contrast */
+.gh,.go,.bp {
+  color: #6A737D
 }
