@@ -1,2 +1,3 @@
 https://dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html
 https://dcorking.com/2020/01/static-sites-with-racket.html
+https://dcorking.com/2026/03/quickly-test-a-rails-routing-table-from-irb.html

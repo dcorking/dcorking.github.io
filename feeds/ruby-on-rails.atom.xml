@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
- <title type="text">David Corking: David Corking</title>
- <link rel="self" href="https://dcorking.com/feeds/all.atom.xml" />
- <link href="https://dcorking.com/index.html" />
- <id>urn:https-dcorking-com:-index-html</id>
+ <title type="text">David Corking: Posts tagged 'ruby-on-rails'</title>
+ <link rel="self" href="https://dcorking.com/feeds/ruby-on-rails.atom.xml" />
+ <link href="https://dcorking.com/tags/ruby-on-rails.html" />
+ <id>urn:https-dcorking-com:-tags-ruby-on-rails-html</id>
  <updated>2026-03-27T21:02:17Z</updated>
  <entry>
   <title type="text">Quickly test a Rails routing table from IRB</title>
-  <link rel="alternate" href="https://dcorking.com/2026/03/quickly-test-a-rails-routing-table-from-irb.html?utm_source=all&amp;utm_medium=Atom" />
+  <link rel="alternate" href="https://dcorking.com/2026/03/quickly-test-a-rails-routing-table-from-irb.html?utm_source=ruby-on-rails&amp;utm_medium=Atom" />
   <id>urn:https-dcorking-com:-2026-03-quickly-test-a-rails-routing-table-from-irb-html</id>
   <published>2026-03-27T21:02:17Z</published>
   <updated>2026-03-27T21:02:17Z</updated>
@@ -35,57 +35,4 @@
 &lt;span class="o"&gt;=&amp;gt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;"http://www.example.com/2-gelato-4-u/manage/projects/7"&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;
 
-&lt;/div&gt;&lt;a href="https://dcorking.com/2026/03/quickly-test-a-rails-routing-table-from-irb.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
- <entry>
-  <title type="text">What is the name of a class, in a class method?</title>
-  <link rel="alternate" href="https://dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-dcorking-com:-2020-02-what-is-the-name-of-a-class-in-a-class-method-html</id>
-  <published>2020-02-05T23:14:43Z</published>
-  <updated>2020-02-05T23:14:43Z</updated>
-  <author>
-   <name>David</name></author>
-  <content type="html">
-&lt;p&gt;What is the name of a class, in a class method?&lt;/p&gt;
-
-&lt;div class="brush: ruby"&gt;
- &lt;table class="sourcetable"&gt;
-  &lt;tbody&gt;
-   &lt;tr&gt;
-    &lt;td class="linenos"&gt;
-     &lt;div class="linenodiv"&gt;
-      &lt;pre&gt;1
-2
-3
-4
-5
-6
-7&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;
-    &lt;td class="code"&gt;
-     &lt;div class="source"&gt;
-      &lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# bad&lt;/span&gt;
-&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;Foo&lt;/span&gt;
-  &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nc"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;hello&lt;/span&gt;
-    &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;class_name&lt;/span&gt; &lt;span class="c1"&gt;# is a monkey patch from yard so probably won&amp;#39;t work in production&lt;/span&gt;
-    &lt;span class="nb"&gt;puts&lt;/span&gt; &lt;span class="n"&gt;class&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;name&lt;/span&gt; &lt;span class="c1"&gt;# is &amp;#39;Module&amp;#39;  :(&lt;/span&gt;
-  &lt;span class="k"&gt;end&lt;/span&gt;
-&lt;span class="k"&gt;end&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
-&lt;/div&gt;&lt;a href="https://dcorking.com/2020/02/what-is-the-name-of-a-class-in-a-class-method.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry>
- <entry>
-  <title type="text">Static sites with Racket</title>
-  <link rel="alternate" href="https://dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;utm_medium=Atom" />
-  <id>urn:https-dcorking-com:-2020-01-static-sites-with-racket-html</id>
-  <published>2020-01-26T09:12:10Z</published>
-  <updated>2020-01-26T09:12:10Z</updated>
-  <author>
-   <name>David</name></author>
-  <content type="html">
-&lt;p&gt;I saw from a recent Reddit thread that there are several static site generators in Racket. They vary in the markup language that can be used for pages, and the extent to which individual pages can have programmatically generated custom content.&lt;/p&gt;
-
-&lt;p&gt;Interesting options include&lt;/p&gt;
-
-&lt;ul&gt;
- &lt;li&gt;&lt;a href="https://github.com/pmatos/darwin"&gt;racket darwin&lt;/a&gt; (a fork of the dormant frog project; not related to &amp;lsquo;darwin&amp;rsquo;, Apple&amp;rsquo;s open source Mach kernel for operating systems)&lt;/li&gt;
- &lt;li&gt;&lt;a href="https://docs.racket-lang.org/pollen/"&gt;pollen&lt;/a&gt; (that was written to make web books such as Practical Typography)&lt;/li&gt;
- &lt;li&gt;&lt;a href="https://racket-stories.com/about"&gt;racket stories&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;a href="https://dcorking.com/2020/01/static-sites-with-racket.html?utm_source=all&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
+&lt;/div&gt;&lt;a href="https://dcorking.com/2026/03/quickly-test-a-rails-routing-table-from-irb.html?utm_source=ruby-on-rails&amp;amp;utm_medium=Atom"&gt;&lt;em&gt;More&amp;hellip;&lt;/em&gt;&lt;/a&gt;</content></entry></feed>
